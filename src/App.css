@@ -1,8 +1,20 @@
+html,
+body,
+#root,
 .App {
-  text-align: center;
+  height: 100%;
+}
+
+.blur {
+  height: 100%;
+  backdrop-filter: blur(3px) sepia(20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
+  padding-top: 50px;
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +47,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page-number {
+  margin-left: 10px;
+  margin-right: 40px;
+  white-space: nowrap;
+}
+
+.document {
+  filter: drop-shadow(0 0 2rem black);
+  opacity: 0.85;
 }
