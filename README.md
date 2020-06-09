@@ -11,3 +11,7 @@ REACT_APP_DESTINATION="SFO" \
 REACT_APP_PATH="/phaenomenologie.pdf" \
 npm run start
 ```
+
+# Screenshot
+
+![](./screenshot.png)

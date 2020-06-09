@@ -85,7 +85,7 @@ function App() {
     // script.async = true;
     document.body.appendChild(script);
     (async () => {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 2000));
       setVertices(await getRoute());
       forceUpdate();
     })();
